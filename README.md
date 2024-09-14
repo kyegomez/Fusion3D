@@ -11,8 +11,6 @@ pip install fusion-threed
 ```
 ## Usage
 
-```python
-from fusion_threed import Diffusion3DGenerator
-
-model = Diffusion3DGenerator(image_size=64, voxel_size=32, num_timesteps=1000)
+```bash
+python train.py
 ```
