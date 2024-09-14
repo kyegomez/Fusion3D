@@ -3,16 +3,16 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "paper"
+name = "fusion-threed"
 version = "0.0.1"
-description = "Paper - Pytorch"
+description = "3D Diffusion Models in PyTorch"
 license = "MIT"
 authors = ["Kye Gomez <kye@apac.ai>"]
-homepage = "https://github.com/kyegomez/paper"
-documentation = "https://github.com/kyegomez/paper"  # Add this if you have documentation.
+homepage = "https://github.com/kyegomez/Fusion3D"
+documentation = "https://github.com/kyegomez/Fusion3D"  # Add this if you have documentation.
 readme = "README.md"  # Assuming you have a README.md
-repository = "https://github.com/kyegomez/paper"
-keywords = ["artificial intelligence", "deep learning", "optimizers", "Prompt Engineering"]
+repository = "https://github.com/kyegomez/Fusion3D"
+keywords = ["artificial intelligence", "deep learning", "optimizers", "Prompt Engineering", "3D Diffusion Models", "PyTorch"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -23,12 +23,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-swarms = "*"
-zetascale = "*"
-
-[tool.poetry.dev-dependencies]
-# Add development dependencies here
-
+torch = "*"
+loguru = "*"
 
 [tool.poetry.group.lint.dependencies]
 ruff = "^0.1.6"
